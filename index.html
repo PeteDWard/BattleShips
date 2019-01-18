@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Battleships 2.0 Copyright 2018 Peter Ward</title>
+		<link rel="stylesheet" type="text/css" href="battle.css">
+        
+    	<script type="text/javascript" src="battle.js" defer></script>
+
+	</head>
+	<body>
+        <div class="battleships">
+            <div class="controlArea">
+                <h1>Battleships</h1>
+                <input id="coord" name="coord"><button onclick="shoot(document.getElementsByName('coord')[0].value)">Fire</button>
+
+                <p id="message"></p>
+                
+                <p class="instruction">Enter a grid reference e.g. a0 and press fire. <br>If you hit an enemy ship the square will turn red.</p>
+            </div>
+
+            <div class="viewarea">
+                <div class="legendNum">
+                    <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+                </div>
+                <div class="legendAlpha">
+                    <span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span><span>i</span><span>j</span>
+                </div>
+                <div id="seascape"></div>
+                <div class="legendAlpha">
+                    <span>a</span><span>b</span><span>c</span><span>d</span><span>e</span><span>f</span><span>g</span><span>h</span><span>i</span><span>j</span>
+                </div>
+                <div class="legendNum">
+                    <span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+                </div>            
+            </div>        
+        </div>
+	</body>
+</html>

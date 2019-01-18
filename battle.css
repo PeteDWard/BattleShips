@@ -1,0 +1,124 @@
+/* Copyright 2018 Peter Ward */
+body {
+    margin: 60px auto;
+    width: 70%;
+    max-width: 950px;
+    background-color: #2b2b2b;
+}
+
+.battleships{
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.viewarea, .controlArea{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: darkgray;
+}
+
+.controlArea p, .controlArea button, .controlArea input, .controlArea h1{
+    margin: 5px;
+}
+
+.controlArea h1 {
+    font-size: 2.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #fff;
+}
+
+.controlArea p, .controlArea button, .controlArea input {
+	margin-bottom:1em;
+}
+
+.controlArea input{
+    width: 215px;
+    line-height: 1.2em;
+    height: 30px;
+}
+
+.controlArea button{
+    background-color: red;
+    color: white;
+    border: solid red 2px;;
+    line-height: 1.4em;
+    height: 35px;
+}
+
+.controlArea button, .controlArea input{
+    float: left;
+}
+
+p {
+    clear: left;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #fff;
+    padding: 5px;
+}
+
+p#message{
+    background-color: #ccc;
+    line-height: 1.2em;
+    color: red;
+}
+
+p.instruction{
+    background-color: #ccc;
+    
+    color: #000;
+    font-size: .9em;
+}
+
+.legendAlpha, .legendNum, .legendAlpha span, .legendNum span{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.legendAlpha span, .legendNum span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.legendNum span{
+    padding-top: 3px;
+}
+
+.legendNum{
+    margin-left: 25px;
+    height: 25px;
+}
+
+.legendAlpha{
+    width: 25px;
+    float: left;
+}
+
+#seascape {
+	position:relative;
+    float:left;
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+}
+
+#seascape div {
+	position:absolute;
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+	-moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+	box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+	background: #2692bb; /* Old browsers */
+	border: 1px solid #1a5f79;
+	width:25px;
+	height:25px;
+}
